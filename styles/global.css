@@ -1,0 +1,41 @@
+:root {
+    --roxo: #822b93;
+    --azul: #1a3459;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--roxo);
+    -webkit-font-smoothing: antialiased;
+    scroll-snap-type: y mandatory;
+}
+
+body, input, textarea, button {
+    font-family:  sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button { 
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
